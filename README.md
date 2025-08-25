@@ -1,39 +1,57 @@
-# What is Tanideh?
+# Tanideh
 
-Tanideh is a decentralized, secure, and transparent app that enables users to participate in legitimate elections and referendums. It creates a dynamic "pulse" of societal sentiment, offering real-time insights into public opinion. Tanideh operates through a client-to-client messaging system, where votes are exchanged directly between users — ensuring privacy, security, and full transparency.
-
-## Key Features
-
-- **Decentralized Voting** – No central servers. All votes are directly validated and shared among participants, making the process open, verifiable, and resistant to manipulation or censorship.
-- **Anti-Bot Technology** – Multi-layer security protocols prevent automated bots from voting. Users can interact with others to verify legitimacy without relying on central oversight.
-- **Privacy Protection** – End-to-end encryption with relays across multiple nodes ensures your identity and IP remain private. No single entity — not even Tanideh — can trace or alter your votes.
-
-## How It Works
-
-With Tanideh, you can:
-- Vote in elections and referendums
-- Track results in real-time
-- Create your own polls by gathering digital signatures from other users  
-
-Every vote is open to verification. You can review and tally results yourself at any time.
+[![Latest Release](https://img.shields.io/github/v/release/Tanideh-Dev/Tanideh)](https://github.com/Tanideh-Dev/Tanideh/releases/latest)
 
 ---
 
-# تنیده چیست؟
+## What is Tanideh?
 
-تنیده یک اپلیکیشن غیرمتمرکز، امن و شفاف است که به کاربران این امکان را می‌دهد تا در نظرسنجی‌های مشروع برای انتخابات و رفراندوم‌ها شرکت کنند. این اپلیکیشن نبضی پویا از احساسات اجتماعی ایجاد می‌کند و بینش لحظه‌ای از افکار عمومی ارائه می‌دهد.  
+Tanideh is a decentralized, secure, and transparent app that allows users to participate in legitimate polling for elections and referendums. It creates a dynamic "pulse" of societal sentiment, providing real-time insights into public opinion. Tanideh operates through a unique client-to-client messaging system, where votes are exchanged directly between users, ensuring privacy and security.
 
-## ویژگی‌های کلیدی
+### Key Features of Tanideh
 
-- **رای‌گیری غیرمتمرکز** – بدون وابستگی به سرورهای مرکزی. همه آرا مستقیماً بین کاربران تأیید و توزیع می‌شوند.  
-- **تکنولوژی ضد ربات** – پروتکل‌های چندلایه مانع رأی دادن ربات‌ها می‌شوند. کاربران می‌توانند مشروعیت یکدیگر را تأیید کنند.  
-- **حفاظت از حریم خصوصی** – ارتباطات با رمزگذاری انتها به انتها محافظت می‌شوند و از چندین گره عبور می‌کنند تا هویت و آدرس IP پنهان بماند.  
+**Decentralized Voting:**  
+Tanideh distributes all information directly among users, ensuring resilience against manipulation and censorship. Participants can validate votes themselves, keeping the voting process open and verifiable.
 
-## چطور کار می‌کند؟
+**Anti-Bot Technology:**  
+Multilayer protocols ensure only real users can vote. You can verify other voters’ legitimacy and confirm that votes are authentic without central oversight.
 
-با تنیده می‌توانید:  
-- در انتخابات و رفراندوم‌ها رأی دهید  
-- نتایج را لحظه‌ای پیگیری کنید  
-- نظرسنجی‌های خود را با جمع‌آوری امضا ایجاد کنید  
+**Privacy Protection:**  
+All communications are end-to-end encrypted and relayed through multiple nodes to obscure your network identity and IP address.
 
-هر کاربر می‌تواند شفافیت آرا را بررسی و صحت آن‌ها را در هر زمان تأیید کند.
+**How It Works:**  
+Vote in elections, track results in real-time, and create your own polls by gathering signatures from other users. Every user can verify the transparency and legitimacy of votes at any time.
+
+---
+
+## دانلود و نصب
+
+نسخه‌ی پایدار اپلیکیشن تنیده را از لینک زیر دانلود کنید:
+
+[دانلود آخرین نسخه Tanideh](https://github.com/Tanideh-Dev/Tanideh/releases/latest)
+
+---
+
+## تنیده چیست؟
+
+تنیده یک اپلیکیشن غیرمتمرکز، امن و شفاف است که به کاربران این امکان را می‌دهد تا در نظرسنجی‌های مشروع برای انتخابات و رفراندوم‌ها شرکت کنند. این اپلیکیشن نبض پویا از احساسات اجتماعی ایجاد می‌کند و بینش‌ جامع اما لحظه‌ای از افکار عمومی ارائه می‌دهد. تنیده از یک سیستم پیام‌رسانی منحصر به فرد به صورت مشتری به مشتری (client-to-client) استفاده می‌کند که در آن آرا به طور مستقیم بین کاربران تبادل می‌شود و از این طریق حریم خصوصی و امنیت تضمین می‌شود.
+
+### ویژگی‌های کلیدی تنیده
+
+**رای‌گیری غیرمتمرکز:**  
+تمام اطلاعات به طور مستقیم بین کاربران توزیع می‌شود و امکان تأیید مستقیم آرا توسط افراد فراهم است.
+
+**تکنولوژی ضد ربات:**  
+پروتکل‌های چندلایه تضمین می‌کنند که فقط کاربران واقعی قادر به رأی دادن هستند و می‌توانید مشروعیت رأی‌دهندگان دیگر را تأیید کنید.
+
+**حفاظت از حریم خصوصی:**  
+تمام ارتباطات رمزگذاری انتها به انتها شده و از چندین گره عبور می‌کنند تا هویت شبکه و IP شما پنهان بماند.
+
+**چطور کار می‌کند:**  
+رأی دهید، نتایج را به‌صورت لحظه‌ای پیگیری کنید و نظرسنجی‌های خود را ایجاد کنید. کاربران می‌توانند شفافیت و مشروعیت آرا را بررسی کنند.
+
+---
+
+## License
+
+MIT License
