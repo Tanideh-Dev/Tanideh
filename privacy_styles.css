@@ -14,19 +14,6 @@ header {
   background: none;   /* no unwanted background */
 }
 
-.hero-banner {
-  margin: 0;
-  padding: 0;
-}
-
-.hero-banner img {
-  width: 100%;
-  height: auto;
-  max-height: 500px;
-  object-fit: cover;
-  display: block;     /* removes inline spacing/margins */
-  margin: 0;
-}
 
 .logo-container {
   text-align: center;
@@ -86,7 +73,7 @@ header h1 {
 
 @keyframes flash-btn {
   0% { background-color: #0f4c81; }
-  50% { background-color: #ffcc00; color: #0f4c81; }
+  50% { background-color: white; color: #0f4c81; }
   100% { background-color: #0f4c81; color: white; }
 }
 
