@@ -10,10 +10,11 @@ body {
 header {
     display: flex;
     justify-content: space-between;
-    align-items: center;
     background-color: #0f4c81;
     color: white;
     padding: 1rem 2rem;
+    flex-direction: column;
+    align-items: center; /* keeps logo/title centered */
 }
 
 .logo-container {
