@@ -58,9 +58,9 @@ header h1 {
 
 
 .toggle-btn {
-  background-color: #0f4c81;
+  background-color: #1f4160;
   color: white;
-  border: #0f4c81;
+  border: #1f4160;
   border-width: 1px;
   padding: 0.5rem 1rem;
   border-radius: 8px;
@@ -73,9 +73,9 @@ header h1 {
 }
 
 @keyframes flash-btn {
-  0% { background-color: #0f4c81; }
-  50% { background-color: white; color: #0f4c81; }
-  100% { background-color: #0f4c81; color: white; }
+  0% { background-color: #1f4160; }
+  50% { background-color: #402a3e; color: #1f4160; }
+  100% { background-color: #1f4160; color: white; }
 }
 
 main {
@@ -85,7 +85,13 @@ main {
 }
 
 h1, h2, h3 {
-    color: #0f4c81;
+    color: #1f4160;
+}
+
+p {
+  text-align: justify;
+  text-justify: inter-word;  /* ensures spaces are adjusted between words */
+  line-height: 1.6;          /* improves readability */
 }
 
 .fa {
@@ -104,7 +110,7 @@ h1, h2, h3 {
 .section-divider {
   border: 0;
   height: 2px;
-  background: #0f4c81;
+  background: #1f4160;
   margin: 2rem 0;
   opacity: 0.7;
   border-radius: 2px;
