@@ -16,22 +16,59 @@ header {
     padding: 1rem 2rem;
 }
 
-header .logo {
-    height: 60px;
+
+
+.logo {
+  width: 150px;
+  height: auto;
+  margin: 1rem auto;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2);
+  border-radius: 50%;
 }
+
+#site-title {
+  font-size: 2.5rem;
+  margin: 0.5rem 0;
+  text-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+}
+
+.hero-banner img {
+  width: 100%;
+  height: auto;
+  max-height: 500px;
+  object-fit: cover;
+  display: block;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.header-container {
+  text-align: center;
+  margin-top: -120px; /* overlap to bring logo closer to banner */
+}
+
 
 header h1 {
     margin: 0 1rem;
 }
 
 .toggle-btn {
-    background: #fff;
-    color: #0f4c81;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
-    border-radius: 5px;
-    font-weight: bold;
+  background-color: #0f4c81;
+  color: white;
+  border: none;
+  padding: 0.5rem 1rem;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.toggle-btn.flash {
+  animation: flash-btn 1s ease;
+}
+
+@keyframes flash-btn {
+  0% { background-color: #0f4c81; }
+  50% { background-color: #ffcc00; color: #0f4c81; }
+  100% { background-color: #0f4c81; color: white; }
 }
 
 main {
@@ -47,11 +84,13 @@ h1, h2, h3 {
 .fa {
     direction: rtl;
     text-align: right;
+    display: none;
 }
 
 .en {
     direction: ltr;
     text-align: left;
+    display: block;
 }
 
 .section-divider {
