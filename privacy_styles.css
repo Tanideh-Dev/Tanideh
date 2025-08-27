@@ -1,0 +1,55 @@
+body {
+    font-family: 'Helvetica', 'Arial', sans-serif;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background: #fefefe;
+    color: #222;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #0f4c81;
+    color: white;
+    padding: 1rem 2rem;
+}
+
+header .logo {
+    height: 60px;
+}
+
+header h1 {
+    margin: 0 1rem;
+}
+
+.toggle-btn {
+    background: #fff;
+    color: #0f4c81;
+    border: none;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    border-radius: 5px;
+    font-weight: bold;
+}
+
+main {
+    padding: 2rem;
+    max-width: 900px;
+    margin: auto;
+}
+
+h1, h2, h3 {
+    color: #0f4c81;
+}
+
+.fa {
+    direction: rtl;
+    text-align: right;
+}
+
+.en {
+    direction: ltr;
+    text-align: left;
+}
