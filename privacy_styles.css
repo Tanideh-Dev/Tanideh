@@ -60,7 +60,8 @@ header h1 {
 .toggle-btn {
   background-color: #0f4c81;
   color: white;
-  border: none;
+  border: #0f4c81;
+  border-width: 1px;
   padding: 0.5rem 1rem;
   border-radius: 8px;
   cursor: pointer;
