@@ -8,9 +8,15 @@ body {
 }
 
 header {
-  display: block;      /* reset Pico’s flex */
-  padding: 0;          /* no extra spacing around banner */
-  background: none;    /* banner controls its own look */
+  display: block;     /* reset Pico’s flex */
+  padding: 0;         /* no spacing around banner */
+  margin: 0;
+  background: none;   /* no unwanted background */
+}
+
+.hero-banner {
+  margin: 0;
+  padding: 0;
 }
 
 .hero-banner img {
@@ -18,7 +24,8 @@ header {
   height: auto;
   max-height: 500px;
   object-fit: cover;
-  display: block;
+  display: block;     /* removes inline spacing/margins */
+  margin: 0;
 }
 
 .logo-container {
@@ -37,11 +44,13 @@ header {
   margin: 0.8rem 0 0.5rem;
 }
 
+
 #lang-toggle {
-  margin-top: 0.5rem;
+  display: block;
   text-align: left;
-  margin-left: 1rem;      /* shift slightly left, keeps balance */
-  display: inline-block;  /* button takes only its content width */
+  margin: 0.5rem auto 0 auto; /* keep within centered container */
+  width: 100%;
+  max-width: 900px;           /* align with main content width */
 }
 
 
