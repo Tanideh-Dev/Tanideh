@@ -94,6 +94,12 @@ p {
   line-height: 1.6;          /* improves readability */
 }
 
+ul li {
+  text-align: justify;
+  text-justify: inter-word; /* ensures spacing is distributed */
+  line-height: 1.5;         /* optional, for readability */
+}
+
 .fa {
   direction: rtl;
   text-align: right;
