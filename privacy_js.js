@@ -1,6 +1,9 @@
 const toggleBtn = document.getElementById('lang-toggle');
 const title = document.getElementById("site-title");
 
+let isEnglish = true; // start in English mode
+
+
 toggleBtn.addEventListener('click', () => {
   // flash animation
   toggleBtn.classList.remove("flash");
