@@ -44,13 +44,21 @@ header {
   margin: 0.8rem 0 0.5rem;
 }
 
+ .button-container
+{
+    align-items: center; 
+    padding: 1rem;
+    max-width: 900px;
+    margin: auto;
+}
+    
+
 
 #lang-toggle {
   display: block;
   text-align: left;
-  margin: 0.5rem auto 1rem auto; /* keep within centered container */
+  margin: 0.5rem auto 0.5rem auto; /* keep within centered container */
   width: 100%;
-  max-width: 900px;           /* align with main content width */
 }
 
 
