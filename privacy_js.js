@@ -2,18 +2,20 @@ const toggleBtn = document.getElementById('lang-toggle');
 const title = document.getElementById("site-title");
 
 toggleBtn.addEventListener('click', () => {
+  // flash animation
+  toggleBtn.classList.remove("flash");
+  void toggleBtn.offsetWidth; // reflow
+  toggleBtn.classList.add("flash");
 
-  // trigger flash animation
-  langBtn.classList.remove("flash");
-  void langBtn.offsetWidth; // force reflow to restart animation
-  langBtn.classList.add("flash");
-
-// change title language
+  // change title
   isEnglish = !isEnglish;
   title.textContent = isEnglish ? "Tanideh" : "تنیده";
 
-// change privacy language
-    document.querySelectorAll('.en, .fa').forEach(el => {
-        el.style.display = (el.style.display === 'none' || el.style.display === '') ? 'block' : 'none';
-    });
+  // switch content
+  document.querySelectorAll('.en').forEach(el => {
+    el.style.display = isEnglish ? "block" : "none";
+  });
+  document.querySelectorAll('.fa').forEach(el => {
+    el.style.display = isEnglish ? "none" : "block";
+  });
 });
