@@ -20,7 +20,7 @@ Multilayer protocols ensure only real users can vote. You can verify other voter
 All communications are end-to-end encrypted and relayed through multiple nodes to obscure your network identity and IP address.
 
 **How It Works:**  
-Vote in elections, track results in real-time, and create your own referendums or add your own candidate by gathering signatures from other users. Every user can verify the transparency and legitimacy of votes at any time.
+Vote in elections, track results in real-time, and create your own referendums or add your favorite candidate by gathering signatures from other users. Every user can verify the transparency and legitimacy of votes at any time.
 
 ---
 
@@ -34,7 +34,7 @@ Vote in elections, track results in real-time, and create your own referendums o
 
 ## تنیده چیست؟
 
-تنیده یک اپلیکیشن غیرمتمرکز، امن و شفاف است که به کاربران این امکان را می‌دهد تا انتخابات و رفراندوم‌های مشروع خود را یسازند و در آن شرکت کنند. این اپلیکیشن نبض پویا از احساسات اجتماعی ایجاد می‌کند و بینش‌ جامع اما لحظه‌ای از افکار عمومی ارائه می‌دهد. تنیده از یک سیستم پیام‌رسانی منحصر به فرد به صورت مشتری به مشتری (client-to-client) استفاده می‌کند که در آن آرا به طور مستقیم بین کاربران تبادل می‌شود و از این طریق حریم خصوصی و امنیت تضمین می‌شود.
+تنیده یک اپلیکیشن غیرمتمرکز، امن و شفاف است که به کاربران این امکان را می‌دهد تا انتخابات و همه‌پرسی مشروع خود را بسازند و در آن شرکت کنند. این اپلیکیشن نبض پویا از احساسات اجتماعی ایجاد می‌کند و بینش‌ جامع اما لحظه‌ای از افکار عمومی ارائه می‌دهد. تنیده از یک سیستم پیام‌رسانی منحصر به فرد به صورت مشتری به مشتری (client-to-client) استفاده می‌کند که در آن آرا به طور مستقیم بین کاربران تبادل می‌شود و از این طریق حریم خصوصی و امنیت تضمین می‌شود.
 
 ### ویژگی‌های کلیدی تنیده
 
@@ -48,7 +48,7 @@ Vote in elections, track results in real-time, and create your own referendums o
 تمام ارتباطات رمزگذاری انتها به انتها شده و از چندین گره عبور می‌کنند تا هویت شبکه و IP شما پنهان بماند.
 
 **چطور کار می‌کند:**  
-رأی دهید، نتایج را به‌صورت لحظه‌ای پیگیری کنید و کاندیدا خود را اضافه و رفراندوم‌های خود را با گردآوری امضا از دیگران ایجاد کنید. کاربران می‌توانند شفافیت و مشروعیت آرا را بررسی کنند.
+رأی دهید، نتایج را به‌صورت لحظه‌ای پیگیری کنید و کاندیدا خود را اضافه و همه‌پرسی‌های خود را با گردآوری امضا از دیگران ایجاد کنید. کاربران می‌توانند شفافیت و مشروعیت آرا را بررسی کنند.
 
 ---
 
