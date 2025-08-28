@@ -13,49 +13,110 @@
 
   <!-- Banner -->
   <header class="banner">
-    <div class="container">
-      <h1>Tanideh</h1>
-      <p class="motto">Your Voice, Your Power</p>
+       <!-- Logo -->
+    <div class="logo-div">
+      <img src="./assets/logo_round_512.png" alt="Tanideh Logo" class="logo">
+    </div>
+    <div >
+      <h1 class="brand-container en" >Tanideh</h1>
+      <p class="brand-container en motto" >Your Voice, Your Power</p>
+      <h1 class="brand-container fa hidden" >تنیده</h1>
+      <p class="brand-container fa hidden motto" >صدای شما، قدرت شما</p>
     </div>
   </header>
 
   <!-- Main Section -->
   <main class="container">
-    <!-- Logo -->
-    <section class="logo-section">
-      <img src="logo_256.png" alt="Tanideh Logo" class="logo">
-      <h2>A Decentralized & Transparent Voting Platform</h2>
-      <p>Empowering communities to make decisions together, securely and privately.</p>
-    </section>
+     <div class="button-container">
+    <button id="lang-toggle" class="toggle-btn">فارسی / English</button>
+     </div>
 
+        </section>
     <!-- Download Links -->
     <section class="downloads">
-      <h3>Get Tanideh</h3>
+      <h3 class="en">Get Tanideh</h3>
+      <h3 class="fa hidden">دریافت تنیده</h3>
       <ul>
-        <li><a href="https://github.com/Tanideh-Dev/Tanideh/releases/latest" target="_blank">📥 Download from GitHub</a></li>
-        <li><a href="privacy.html">🔒 Privacy Policy</a></li>
-        <li><a href="https://apkpure.com" target="_blank">📱 Download from APKPure</a></li>
-        <li><a href="https://apkmirror.com" target="_blank">📱 Download from APKMirror</a></li>
+        <li class="en"><a href="https://github.com/Tanideh-Dev/Tanideh/releases/latest" target="_blank">📥 Download from GitHub</a></li>
+        <li class="en"><a href="https://apkpure.com" target="_blank">📱 Download from APKPure</a></li>
+        <li class="en marignTop1"><a href="privacy.html">🔒 Privacy Policy</a></li>
+
+        <li class="fa hidden"><a href="https://github.com/Tanideh-Dev/Tanideh/releases/latest" target="_blank">📥 دانلود از GitHub</a></li>
+        <li class="fa hidden"><a href="https://apkpure.com" target="_blank">📱 دانلود از APkPure</a></li>
+        <li class="fa hidden marignTop1"><a href="privacy.html">🔒 حریم خصوصی</a></li>
+
       </ul>
     </section>
 
-    <!-- Screenshots -->
-    <section class="screenshots">
-      <h3>App Previews</h3>
-      <div class="grid">
-        <img src="screen_1.png" alt="Screenshot 1" class="screenshot">
-        <img src="screen_2_1.png" alt="Screenshot 2" class="screenshot">
-        <img src="screen_3_1.png" alt="Screenshot 3" class="screenshot">
-        <img src="screen_3_2.png" alt="Screenshot 4" class="screenshot">
+        <!-- Download Links -->
+    <section class="introduction">
+      <P class="en titles">What is Tanideh?</P>
+      <P class="en sentence">Tanideh is a decentralized, secure, and transparent app that allows users to build and participate in legitimate elections and referendums. It creates a dynamic "pulse" of societal sentiment, providing real-time insights into public opinion. Tanideh operates through a unique client-to-client messaging system, where votes are exchanged and certified directly between users, ensuring privacy and security.</P>
+
+
+      <P class="fa hidden titles">تنیده چیست؟</P>
+      <P class="fa hidden sentence">تنیده یک اپلیکیشن غیرمتمرکز، امن و شفاف است که به کاربران این امکان را می‌دهد تا به صورت دیجیتال انتخابات و همه‌پرسی‌های  قابل اتکا ایجاد کنند. این اپلیکیشن نبض پویا از احساسات اجتماعی ایجاد می‌کند و بینش‌ جامع اما لحظه‌ای از افکار عمومی ارائه می‌دهد. تنیده از یک سیستم پیام‌رسانی منحصر به فرد به صورت کاربر به کاربر (client-to-client) استفاده می‌کند که در آن آرا به طور مستقیم بین کاربران تبادل و صحت سنجی می‌شود و از این طریق حریم خصوصی و امنیت تضمین می‌شود.</P>
+
+       <div class="screenshot-container">
+      <img src="./assets/screen_2_1.png" alt="Screenshot 1" class="screenshot">
       </div>
-    </section>
+
+      <h3 class="en">Key Features of Tanideh:</h3>
+      <h3 class="fa hidden">ویژگی‌های کلیدی تنیده:</h3>
+
+
+      <P class="en titles">Decentralized Voting:</P>
+      <P class="en sentence">Tanideh does not rely on central servers. Instead, it distributes all information directly among users. This ensures resilience against manipulation and censorship. Unlike traditional systems, where votes are processed through a centralized authority, in Tanideh participants equally contribute to maintaining and distributing the network. Tanideh enables direct validation of votes by individuals themselves. The entire voting process remains open, verifiable, and free from external control. You can fully verify and tally votes yourself. You have access to all the data to aggregate it by individuals, ensuring the voting process is accurate and transparent.</P>
+
+
+      <P class="fa hidden titles">رای‌گیری غیرمتمرکز:</P>
+      <P class="fa hidden sentence">تنیده به سرورهای مرکزی متکی نیست. در عوض، تمام اطلاعات به طور مستقیم بین کاربران توزیع می‌شود. این ویژگی باعث می‌شود سیستم در برابر دستکاری و سانسور مقاوم باشد. برخلاف سیستم‌های سنتی که در آن آرا از طریق یک مرجع مرکزی پردازش می‌شود، در تنیده شرکت‌کنندگان به طور مساوی در نگهداری و توزیع شبکه مشارکت دارند. تنیده امکان تأیید مستقیم آرا توسط افراد را فراهم می‌کند. فرایند رای‌گیری به طور کامل باز، قابل تأیید و آزاد از کنترل‌های خارجی است. شما می‌توانید آرا را به طور کامل تأیید و شمارش کنید. به تمام داده‌ها دسترسی دارید تا آن‌ها را به تفکیک افراد تجزیه و تحلیل کنید و از دقت و شفافیت فرایند رای‌گیری اطمینان حاصل کنید.</P>
+
+      <div class="screenshot-container">
+      <img src="./assets/screen_4_1.png" alt="Screenshot 1" class="screenshot">
+      </div>
+
+      <P class="en titles">Anti-Bot Technology:</P>
+      <P class="en sentence">Tanideh implements security measures to prevent automated bots from manipulating votes. Tanideh uses multilayer protocols to ensure that only real users can vote (More details about these protocols are available in the advanced FAQ section in the app.) To validate the system’s anti-bot claim, The system allows you to interact with other voters, verify their legitimacy, and confirm that votes are authentic—without relying on any central oversight.</P>
+
+      <P class="fa hidden titles">تکنولوژی ضد ربات:</P>
+      <P class="fa hidden sentence">تنیده از اقدامات امنیتی برای جلوگیری از دستکاری آرا توسط ربات‌های خودکار استفاده می‌کند. تنیده از پروتکل‌های چندلایه برای اطمینان از اینکه فقط کاربران واقعی قادر به رأی دادن هستند، استفاده می‌کند. (جزئیات بیشتر در مورد این پروتکل‌ها در بخش سوالات متداول پیشرفته درخود برنامه موجود است.) برای تأیید ادعای ضد ربات بودن سیستم، این سیستم به شما امکان تعامل با سایر رأی‌دهندگان را می‌دهد تا مشروعیت آن‌ها را تأیید کرده و از صحت آرا اطمینان حاصل کنید—بدون اتکا به نظارت مرکزی.</P>
+
+      <div class="screenshot-container">
+      <img src="./assets/screen_3_1.png" alt="Screenshot 1" class="screenshot">
+      </div>
+
+      <P class="en titles">Privacy Protection:</P>
+      <P class="en sentence">All communications in Tanideh are end-to-end encrypted and relayed through multiple nodes to obscure your network identity and your IP address. No single entity—including Tanideh—can track, intercept, or alter your interactions. This ensures a truly private and secure environment where your participation remains anonymous and tamper-proof.</P>
+
+      <P class="fa hidden titles">حفاظت از حریم خصوصی:</P>
+      <P class="fa hidden sentence">تمام ارتباطات در تنیده از طریق رمزگذاری انتها به انتها محافظت می‌شود و از چندین گره عبور داده می‌شود تا هویت شبکه و آدرس IP شما پنهان شود. هیچ نهاد واحدی—از جمله تنیده—نمی‌تواند تعاملات شما را ردیابی، رهگیری یا تغییر دهد. این امر، محیطی کاملاً خصوصی و امن را تضمین می‌کند که در آن مشارکت شما ناشناس و غیرقابل دستکاری باقی می‌ماند.</P>
+
+
+
+      <div class="screenshot-container">
+      <img src="./assets/screen_1.png" alt="Screenshot 1" class="screenshot">
+      </div>
+
+      <P class="en titles">How It Works:</P>
+      <P class="en sentence">With Tanideh, you can vote in elections, track results in real-time, and even create your own referendum or add your favorite candidate. To add a new candidate or referendum, you need to gather enough signatures from other users through the app. This process ensures all polls are legitimate, transparent, and independent of any biases or external influence. Every user has the authority to check the transparency of votes and verify the legitimacy of each one. The process is completely open, giving you the ability to review and validate the results at any time.</P>
+
+      <P class="fa hidden titles">چطور کار می‌کند:</P>
+      <P class="fa hidden sentence">با تنیده، شما می‌توانید در انتخابات رأی دهید، نتایج را به‌صورت لحظه‌ای پیگیری کنید و حتی همه‌پرسی خود را ایجاد کنید. برای اضافه کردن یک کاندیدا یا همه‌پرسی جدید، باید امضاهای کافی از سایر کاربران از طریق اپلیکیشن جمع‌آوری کنید. این فرآیند تضمین می‌کند که تمام نظرسنجی‌ها مشروع، شفاف و مستقل از هر نوع گرایش یا اعمال سلیقه باشند. هر کاربر این اختیار را دارد که شفافیت آرا را بررسی کرده و مشروعیت هر یک از آن‌ها را تأیید کند. این فرآیند کاملاً باز است و شما قادر خواهید بود در هر زمان نتایج را بررسی و تأیید کنید.</P>
+      
+      <div class="screenshot-container">
+      <img src="./assets/screen_4_2.png" alt="Screenshot 1" class="screenshot">
+      </div>
   </main>
 
   <!-- Footer -->
   <footer class="container">
-    <small>© 2025 Tanideh. All rights reserved.</small>
+    <p class="copyright">© 2025 Tanideh. All rights reserved.</p>
   </footer>
 
+
+
+<script src="index_js.js"></script>
 </body>
 </html>
 
