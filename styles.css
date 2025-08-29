@@ -10,8 +10,12 @@
   src: url('./assets/Roboto-Regular.ttf') format('truetype');
 }
 
+header {
+  font-family: 'Inter', system-ui, sans-serif;
+  color: #222;
+}
 
-header body {
+ body {
   font-family: 'Inter', system-ui, sans-serif;
   background: #fdfdfd;
   color: #222;
