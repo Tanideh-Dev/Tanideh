@@ -197,7 +197,13 @@ h3{
   text-align: left;
   /* display: block; /* shown by default */
 }
+.tite_1 {
+  color:#e0f2ff !important;
+}
 
+.tite_2 {
+  color:#bbc6ce !important;
+}
 
 .hidden {
   display: none !important;
