@@ -2,6 +2,8 @@
 
 [![Latest Release](https://img.shields.io/github/v/release/Tanideh-Dev/Tanideh)](https://github.com/Tanideh-Dev/Tanideh/releases/latest)
 
+[📄 Whitepaper](docs/Tanideh%20Whitepaper.pdf)
+
 ---
 
 ## What is Tanideh?
